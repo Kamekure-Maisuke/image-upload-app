@@ -7,7 +7,7 @@ const uploader = new Uppload({
   call: ".pure-button-primary",  // 呼び出し元
   bind: ".uppload-image",  // 表示先
   value: "https://via.placeholder.com/150x150",  // 初期プレースホルダー画面
-  uploader: (file: any, updateProgress: (arg0: number) => void) =>
+  uploader: (file, updateProgress) =>
     new Promise(resolve => {
       console.log("Uploading file...", file);
       setTimeout(() => resolve(window.URL.createObjectURL(file)), 2750);
