@@ -1,0 +1,20 @@
+{
+  "name": "image-upload-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "kamekure",
+  "license": "ISC",
+  "dependencies": {
+    "uppload": "^2.7.4"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "marked": "^0.8.2",
+    "parcel": "^1.12.4",
+    "run-url": "^1.0.2",
+    "typescript": "^3.8.3"
+  }
+}
